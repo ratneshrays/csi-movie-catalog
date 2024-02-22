@@ -33,15 +33,15 @@ public class CsiMovieCatalog {
 //    public WebClient.Builder getWebClientBuilder(){
 //        return WebClient.builder();
 //    }
-    
-    @Bean
-    public WebClient getWebClient(){
-        return WebClient.builder().build();
-    }
-    
-    @Bean
-    @LoadBalanced
-    public RestTemplate getRestTemplate(){ //method name should be anythis it doesn't matter Return Type is matter
-        return new RestTemplate();
-    };
+//    
+//    @Bean
+//    public WebClient getWebClient(){
+//        return WebClient.builder().build();
+//    }
+//    
+//    @Bean
+//    @LoadBalanced
+//    public RestTemplate getRestTemplate(){ //method name should be anythis it doesn't matter Return Type is matter
+//        return new RestTemplate();
+//    };
 }
